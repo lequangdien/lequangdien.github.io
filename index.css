@@ -1,0 +1,113 @@
+body{
+     font-family: tahoma;
+     font-size: 13px;
+     width: 1000px;
+     margin: 0px auto;
+}
+#menu_top{
+    background:#141414;
+    height: 40px;
+}
+#banner{
+  
+    width: 1000px;
+    height: auto;
+}
+#main #left{
+    width: 800px;
+    float: left;
+    min-height: 400px;
+}
+
+#main #right{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+}
+#footer{
+    background: #000;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: #fff;
+    clear: left;
+    line-height: 60px;
+}
+#menu_top ul{
+    margin:0px;
+    padding: 0px;
+}
+#menu_top ul li{
+    list-style: none;
+    float: left;
+}
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    padding: 0px 20px 0px 20px;
+    border-right:1px solid #ccc;
+}
+#menu_top ul li a.active{
+    background: #1949b5;
+}
+#banner img{
+    height: auto;
+    width: 1000px;
+ 
+}
+#main #left ul li {
+    margin: 0px;
+    padding: 0px;
+}
+#main #left ul li {
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+}
+#main #left ul li img{
+    float: left;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#main #left ul li h2 {
+    font-size: 16px;
+    margin-top: 0px;
+}
+#main{
+    margin-top: 10px;
+}
+#main #right .menu_right ul{
+    margin: -15px 0px 0px 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+}
+#main #right .menu_right ul li {
+    height: 40px;
+    margin-top:0px;
+   text-align: center;
+   font-size: 16px;
+   line-height: 40px;
+   color: #fff;
+    list-style: none;
+}
+#main #right.menu_right ul li a{
+    display: block;
+    text-decoration: none; 
+    line-height: 32px; 
+    border-bottom: 2px solid #ccc;
+}
+
+#main #right .menu_right h3{
+    background: #194d58 ;
+    height: 40px;
+    margin-top:0px;
+   text-align: center;
+   font-size: 16px;
+   line-height: 40px;
+   color: #fff;
+}
